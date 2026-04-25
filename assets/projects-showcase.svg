@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" width="1200" height="560" role="img" aria-label="Project showcase cards">
+  <style>
+    .card { fill: #070707; stroke: #00ffff; stroke-width: 1.4; rx: 14; }
+    .title { fill: #ff00ff; font: 700 20px 'Courier New', monospace; }
+    .meta { fill: #d8ffff; font: 14px 'Courier New', monospace; }
+    .tag { fill: #ffff00; font: 12px 'Courier New', monospace; }
+    .cardWrap:hover .card { stroke: #ff007f; filter: drop-shadow(0 0 8px #ff007f); }
+    .cardWrap:hover .scan { opacity: 0.9; }
+  </style>
+
+  <rect width="1200" height="560" fill="#000000" rx="20"/>
+  <text x="600" y="52" text-anchor="middle" font-family="'Courier New', monospace" font-size="31" fill="#00FFFF">
+    PROJECT NODES :: ACTIVE
+  </text>
+
+  <g class="cardWrap" transform="translate(70 90)">
+    <rect class="card" width="500" height="190"/>
+    <text class="title" x="24" y="42">AI FIREWALL</text>
+    <text class="meta" x="24" y="78">Threat detection + IoT signal bridge</text>
+    <text class="meta" x="24" y="104">Flask // Gemini // ESP8266</text>
+    <text class="tag" x="24" y="154">status: deployed</text>
+    <line class="scan" x1="0" y1="20" x2="500" y2="20" stroke="#FFFF00" stroke-width="1" opacity="0.35">
+      <animate attributeName="y1" values="20;170;20" dur="4.2s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="20;170;20" dur="4.2s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <g class="cardWrap" transform="translate(630 90)">
+    <rect class="card" width="500" height="190"/>
+    <text class="title" x="24" y="42">CAREER LAUNCH PAD</text>
+    <text class="meta" x="24" y="78">Placement intelligence + ATS mirror</text>
+    <text class="meta" x="24" y="104">FastAPI // Ollama // JWT</text>
+    <text class="tag" x="24" y="154">status: growing</text>
+    <line class="scan" x1="0" y1="24" x2="500" y2="24" stroke="#00FFFF" stroke-width="1" opacity="0.35">
+      <animate attributeName="y1" values="24;172;24" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="24;172;24" dur="4.5s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <g class="cardWrap" transform="translate(70 320)">
+    <rect class="card" width="500" height="190"/>
+    <text class="title" x="24" y="42">ANDROID LOCAL AI</text>
+    <text class="meta" x="24" y="78">Offline RAG + tiny model runtime</text>
+    <text class="meta" x="24" y="104">llama-cpp // ChromaDB // FastAPI</text>
+    <text class="tag" x="24" y="154">status: benchmarked</text>
+    <line class="scan" x1="0" y1="24" x2="500" y2="24" stroke="#FF007F" stroke-width="1" opacity="0.35">
+      <animate attributeName="y1" values="24;172;24" dur="3.9s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="24;172;24" dur="3.9s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <g class="cardWrap" transform="translate(630 320)">
+    <rect class="card" width="500" height="190"/>
+    <text class="title" x="24" y="42">CTF + LAB ARCHIVE</text>
+    <text class="meta" x="24" y="78">Web exploit chains and forensic notes</text>
+    <text class="meta" x="24" y="104">TryHackMe // CVEs // Reverse</text>
+    <text class="tag" x="24" y="154">status: daily update</text>
+    <line class="scan" x1="0" y1="24" x2="500" y2="24" stroke="#FFFF00" stroke-width="1" opacity="0.35">
+      <animate attributeName="y1" values="24;172;24" dur="4.7s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="24;172;24" dur="4.7s" repeatCount="indefinite"/>
+    </line>
+  </g>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 380" width="1100" height="380" role="img" aria-label="Skills with neon loaders">
+  <defs>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="barA" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FFFF"/>
+      <stop offset="100%" stop-color="#FF00FF"/>
+    </linearGradient>
+    <linearGradient id="barB" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFF00"/>
+      <stop offset="100%" stop-color="#FF007F"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1100" height="380" rx="20" fill="#000000"/>
+  <text x="550" y="58" text-anchor="middle" font-family="'Courier New', monospace" font-size="30" fill="#00FFFF" filter="url(#softGlow)">
+    SKILL BUS :: LIVE LOADERS
+  </text>
+
+  <g font-family="'Courier New', monospace" font-size="18" fill="#FFFFFF">
+    <text x="90" y="108">PYTHON + AUTOMATION</text>
+    <text x="90" y="168">CYBERSECURITY + CTF</text>
+    <text x="90" y="228">LLMS ON EDGE DEVICES</text>
+    <text x="90" y="288">FASTAPI + BACKEND SYSTEMS</text>
+    <text x="90" y="348">LINUX + RESEARCH MINDSET</text>
+  </g>
+
+  <g>
+    <rect x="520" y="86" width="500" height="24" rx="12" fill="#111111" stroke="#00FFFF" stroke-opacity="0.35"/>
+    <rect x="520" y="86" width="0" height="24" rx="12" fill="url(#barA)" filter="url(#softGlow)">
+      <animate attributeName="width" from="0" to="460" dur="1.8s" fill="freeze"/>
+    </rect>
+
+    <rect x="520" y="146" width="500" height="24" rx="12" fill="#111111" stroke="#FF00FF" stroke-opacity="0.35"/>
+    <rect x="520" y="146" width="0" height="24" rx="12" fill="url(#barB)" filter="url(#softGlow)">
+      <animate attributeName="width" from="0" to="440" dur="2s" fill="freeze"/>
+    </rect>
+
+    <rect x="520" y="206" width="500" height="24" rx="12" fill="#111111" stroke="#00FFFF" stroke-opacity="0.35"/>
+    <rect x="520" y="206" width="0" height="24" rx="12" fill="url(#barA)" filter="url(#softGlow)">
+      <animate attributeName="width" from="0" to="410" dur="2.2s" fill="freeze"/>
+    </rect>
+
+    <rect x="520" y="266" width="500" height="24" rx="12" fill="#111111" stroke="#FF00FF" stroke-opacity="0.35"/>
+    <rect x="520" y="266" width="0" height="24" rx="12" fill="url(#barB)" filter="url(#softGlow)">
+      <animate attributeName="width" from="0" to="395" dur="2.4s" fill="freeze"/>
+    </rect>
+
+    <rect x="520" y="326" width="500" height="24" rx="12" fill="#111111" stroke="#00FFFF" stroke-opacity="0.35"/>
+    <rect x="520" y="326" width="0" height="24" rx="12" fill="url(#barA)" filter="url(#softGlow)">
+      <animate attributeName="width" from="0" to="420" dur="2.6s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <g font-family="'Courier New', monospace" font-size="15" fill="#FFFF00">
+    <text x="1032" y="104" text-anchor="end">92%</text>
+    <text x="1032" y="164" text-anchor="end">88%</text>
+    <text x="1032" y="224" text-anchor="end">82%</text>
+    <text x="1032" y="284" text-anchor="end">79%</text>
+    <text x="1032" y="344" text-anchor="end">84%</text>
+  </g>
+</svg>

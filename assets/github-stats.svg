@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="Custom GitHub stats panel">
+  <defs>
+    <filter id="ringGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="g"/>
+      <feMerge>
+        <feMergeNode in="g"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="360" rx="18" fill="#000000"/>
+  <text x="500" y="48" text-anchor="middle" font-family="'Courier New', monospace" font-size="30" fill="#00FFFF">GITHUB TELEMETRY</text>
+
+  <g transform="translate(250 195)">
+    <circle r="92" fill="none" stroke="#111" stroke-width="20"/>
+    <circle r="92" fill="none" stroke="#00FFFF" stroke-width="11" stroke-dasharray="430 578" transform="rotate(-90)" filter="url(#ringGlow)">
+      <animate attributeName="stroke-dasharray" values="0 578;430 578" dur="2s" fill="freeze"/>
+    </circle>
+    <text y="6" text-anchor="middle" font-family="'Courier New', monospace" font-size="26" fill="#FFFFFF">146</text>
+    <text y="34" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" fill="#00FFFF">REPOS TRACKED</text>
+  </g>
+
+  <g transform="translate(500 195)">
+    <circle r="92" fill="none" stroke="#111" stroke-width="20"/>
+    <circle r="92" fill="none" stroke="#FF00FF" stroke-width="11" stroke-dasharray="370 578" transform="rotate(-90)" filter="url(#ringGlow)">
+      <animate attributeName="stroke-dasharray" values="0 578;370 578" dur="2.3s" fill="freeze"/>
+    </circle>
+    <text y="6" text-anchor="middle" font-family="'Courier New', monospace" font-size="26" fill="#FFFFFF">1.2K</text>
+    <text y="34" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" fill="#FF00FF">COMMITS EST.</text>
+  </g>
+
+  <g transform="translate(750 195)">
+    <circle r="92" fill="none" stroke="#111" stroke-width="20"/>
+    <circle r="92" fill="none" stroke="#FFFF00" stroke-width="11" stroke-dasharray="470 578" transform="rotate(-90)" filter="url(#ringGlow)">
+      <animate attributeName="stroke-dasharray" values="0 578;470 578" dur="2.6s" fill="freeze"/>
+    </circle>
+    <text y="6" text-anchor="middle" font-family="'Courier New', monospace" font-size="26" fill="#FFFFFF">9.8K</text>
+    <text y="34" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" fill="#FFFF00">CONTRIBUTIONS</text>
+  </g>
+
+  <text x="500" y="330" text-anchor="middle" font-family="'Courier New', monospace" font-size="14" fill="#FF007F" opacity="0.85">
+    update these numbers manually when major milestones unlock
+  </text>
+</svg>

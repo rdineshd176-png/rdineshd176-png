@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 220" width="980" height="220" role="img" aria-label="Social links">
+  <style>
+    .node { fill: #090909; stroke: #00ffff; stroke-width: 2; transition: all .2s ease; }
+    .txt { fill: #ffffff; font: 16px 'Courier New', monospace; text-anchor: middle; }
+    .sub { fill: #ffff00; font: 12px 'Courier New', monospace; text-anchor: middle; }
+    a:hover .node { stroke: #ff007f; filter: drop-shadow(0 0 9px #ff007f); transform: scale(1.05); transform-origin: center; }
+  </style>
+
+  <rect width="980" height="220" fill="#000000" rx="16"/>
+  <text x="490" y="44" text-anchor="middle" font-family="'Courier New', monospace" font-size="29" fill="#00FFFF">
+    CONNECT // TRANSMIT
+  </text>
+
+  <a href="https://www.linkedin.com/in/dinesh-r-cybersec" target="_blank">
+    <g transform="translate(210 124)">
+      <circle class="node" r="58"/>
+      <text class="txt" y="6">LinkedIn</text>
+      <text class="sub" y="28">/dinesh-r-cybersec</text>
+    </g>
+  </a>
+
+  <a href="mailto:rdinesh176png@gmail.com" target="_blank">
+    <g transform="translate(490 124)">
+      <circle class="node" r="58"/>
+      <text class="txt" y="6">Email</text>
+      <text class="sub" y="28">rdinesh176png@gmail.com</text>
+    </g>
+  </a>
+
+  <a href="https://github.com/rdineshd176-png" target="_blank">
+    <g transform="translate(770 124)">
+      <circle class="node" r="58"/>
+      <text class="txt" y="6">GitHub</text>
+      <text class="sub" y="28">@rdineshd176-png</text>
+    </g>
+  </a>
+</svg>
